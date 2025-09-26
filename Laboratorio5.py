@@ -31,7 +31,7 @@ while True:
             time.sleep(2)
         else:
             disco = torres_hanoi(discos, "Torre A", "Torre C", "Torre B")
-            formula= (2**discos)-1
+            num_movimientos= (2**discos)-1
             num_movimientos = len(disco)
             print()
             print(f"___________JUEGO RESUELTO__________")
