@@ -31,6 +31,7 @@ while True:
             time.sleep(2)
         else:
             disco = torres_hanoi(discos, "Torre A", "Torre C", "Torre B")
+            formula= (2**discos)-1
             num_movimientos = len(disco)
             print()
             print(f"___________JUEGO RESUELTO__________")
@@ -42,3 +43,7 @@ while True:
         print(f"Ocurrio un error inesperado {e}")
         time.sleep(2)
 
+'''
+2^n - 1
+
+'''
